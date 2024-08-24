@@ -17,4 +17,4 @@ streamlit run .\index.py
 ```
 ![levantar streamlit](imagenes/correr_index.png)
 
-Para los emojis instalé la libreria emoji
+Para los emojis puedes checar el listado disponible en https://tutorialmarkdown.com/emojis o puedes instalar alguna libreria
