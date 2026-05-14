@@ -41,7 +41,7 @@ sns.scatterplot(x='price',y='points',data=df[df['price']<precio_limite])
 st.pyplot(fig)
 
 countries_list=df['country'].unique().tolist()
-countries=st.multiselect('Seleccione un/unos/pais/paises a analizar')
+countries=st.multiselect('Seleccione un/unos/pais/paises a analizar',options=countries_list)
 df_countries=df[df['country'].isin(countries)]
     
 fig=plt.figure(figsize=(6,4))
@@ -62,7 +62,6 @@ with col2:
     plt.title('Puntajes según precio para Chile')
     st.pyplot(fig)
  
-
 
 
 
